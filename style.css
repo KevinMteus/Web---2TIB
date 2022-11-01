@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: bisque;
+}
+
+header{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+
+.menu{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+img{
+    width: 660px;
+    height: 445px;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.imagem{
+    text-align: center;
+}
