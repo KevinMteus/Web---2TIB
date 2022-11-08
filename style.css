@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: bisque;
+    background-color: rgba(182, 176, 159, 0.753);
 }
 
 header{
-    background-color: chocolate;
+    background-color: rgb(110, 96, 82);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,7 +19,14 @@ ul li{
     display: inline;
     list-style: none;
     justify-content: center;
-    margin: 0 20px 0 0;
+    margin:0 20px 0 0;
+}
+
+p{
+    
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
 
 .menu{
@@ -33,6 +40,7 @@ img{
     width: 660px;
     height: 445px;
     align-items: center;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 h2{
@@ -41,4 +49,12 @@ h2{
 
 .imagem{
     text-align: center;
+}
+
+small{
+    background-color: rgba(250, 167, 73, 0.986);
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 500px;
+    margin-left: 500px;
+
 }
